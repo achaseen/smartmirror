@@ -1,8 +1,22 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+var ServiceModule = (function() {
+    
+    var WeatherService = function() {
+
+        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json";
+    }
+    
+    _.extend(WeatherService.prototype, {
+        
+        queryWeather: function() {
+ 
+            return new Q($.get(this.url));     
+        }
+    });
+    return {
+        WeatherService: WeatherService,
+    };
+    
+})();
 
 // Your Client ID can be retrieved from your project in the Google
 // Developer Console, https://console.developers.google.com
@@ -68,7 +82,6 @@ var getPageOfMessages = function(request, result) {
   request.execute(function(resp) {
     result = result.concat(resp.messages);
 
-    debugger;
     if(result.length > 0)
     {
         appendPre('Gmail inbox:');
@@ -96,9 +109,7 @@ var request = gapi.client.gmail.users.messages.get({
                 'id': messageId
                 });
 request.execute(function(resp) {
-    debugger;
         for(i = 0; i < resp.payload.headers.length; i++){
-            debugger;
             if(resp.payload.headers[i].name == "Subject"){
                 appendPre(resp.payload.headers[i].value);
             }
@@ -146,23 +157,3 @@ pre.appendChild(textContent);
 }
 
 
-
-
-var ServiceModule = (function() {
-    
-    var WeatherService = function() {
-
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json";
-    }
-    
-    _.extend(WeatherService.prototype, {
-        
-        queryWeather: function() {
- 
-            return new Q($.get(this.url));     
-        }
-    });
-    return {
-        WeatherService: WeatherService,
-    };
-})();

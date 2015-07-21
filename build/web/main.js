@@ -7,6 +7,11 @@
     $(document).ready(function() {
         //document.getElementById('testid').innerHTML = "im working"; 
         var weatherView = new ViewModule.WeatherView(new ServiceModule.WeatherService());
+        date_time('date_time');
+        setInterval(function(){
+            debugger;
+            
+        },5000);
         
     });
     

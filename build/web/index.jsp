@@ -18,15 +18,13 @@
         <link rel="stylesheet" type="text/css" href="Styles.css">
         <script type="text/javascript" src="date_time.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">            
-        <script src="Gmail.js"></script>
+<!--        <script src="Gmail.js"></script>-->
         <script src="https://apis.google.com/js/client.js?onload=checkAuth">
         </script>
         <title>Smart Mirror</title>
     </head>
     <body>
-        <span id="date_time"></span>
-        <script type="text/javascript">window.onload = date_time('date_time');</script>
-  
+        <div id="date_time" class="right"></div>        
         <div class="right" id="clouds"> </div>
         <div class="right" id="location"> </div>
         <div class="right" id="temp"> </div>

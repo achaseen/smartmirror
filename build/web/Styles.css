@@ -16,9 +16,9 @@ and open the template in the editor.
 }
 .rightTime {
     font-family: fantasy;
-    float: right;
     font-size: 30px;
     color: red;
+    text-align: right;
 }
 .rightEmail {
     font-family: fantasy;

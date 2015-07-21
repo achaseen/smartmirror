@@ -102,31 +102,6 @@ request.execute(function(resp) {
 }
 
 
-
-/**
-* Print all Labels in the authorized user's inbox. If no labels
-* are found an appropriate message is printed.
-*/  
-function listLabels() {
-var request = gapi.client.gmail.users.labels.list({
-  'userId': 'me'
-});
-
-request.execute(function(resp) {
-  var labels = resp.labels;
-  appendPre('Labels:');
-
-  if (labels && labels.length > 0) {
-    for (i = 0; i < labels.length; i++) {
-      var label = labels[i];
-      appendPre(label.name)
-    }
-  } else {
-    appendPre('No Labels found.');
-  }
-});
-}
-
 /**
 * Append a pre element to the body containing the given message
 * as its text node.
