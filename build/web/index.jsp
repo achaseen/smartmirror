@@ -16,15 +16,29 @@
         <script src="view.js"></script>
         <script src="DataService.js"></script>
         <link rel="stylesheet" type="text/css" href="Styles.css">
-        
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="date_time.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">            
+        <script src="Gmail.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=checkAuth">
+        </script>
         <title>Smart Mirror</title>
-    
     </head>
     <body>
-<!--        <div id="testid"> 123</div>-->
-        <div class ="right" id="clouds"> </div>
-        <div class = "right" id="location"></div>
-        <div class = "right" id="temp"> </div>
+        <span id="date_time"></span>
+        <script type="text/javascript">window.onload = date_time('date_time');</script>
+  
+        <div class="right" id="clouds"> </div>
+        <div class="right" id="location"> </div>
+        <div class="right" id="temp"> </div>
+        
+        <div id="authorize-div" style="display: none">
+      <span>Authorize access to Gmail API</span>
+      <!--Button for the user to click to initiate auth sequence -->
+      <button id="authorize-button" onclick="handleAuthClick(event)">
+        Authorize
+      </button>
+    </div>
+    <pre class="rightEmail" id="output"></pre>
+        
     </body>
 </html>

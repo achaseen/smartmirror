@@ -9,5 +9,20 @@ and open the template in the editor.
 */
 
 .right {
+    font-family: fantasy;
     text-align: right;
+    font-size: 30px;
+    color: red;
+}
+.rightTime {
+    font-family: fantasy;
+    float: right;
+    font-size: 30px;
+    color: red;
+}
+.rightEmail {
+    font-family: fantasy;
+    text-align: right;
+    font-size: 20px;
+    color: greenyellow;
 }

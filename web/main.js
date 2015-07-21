@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-    debugger;
     $(document).ready(function() {
         //document.getElementById('testid').innerHTML = "im working"; 
         var weatherView = new ViewModule.WeatherView(new ServiceModule.WeatherService());

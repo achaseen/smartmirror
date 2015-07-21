@@ -27,7 +27,6 @@ var ViewModule = (function() {
              location.innerHTML = "Your Location:" + result.name;
              temp.innerHTML = "It is " + result.main.temp + " Degrees Outside";
              cloud.innerHTML = "Look outside " + result.weather[0].description;
-             debugger;
              
              
           });
