@@ -80,7 +80,11 @@ gapi.client.load('gmail', 'v1', listMessages);
 function listMessages() { 
     
  function refreshMessages(){
-    document.getElementById('output').innerHTML="";
+    var clear = document.getElementById('emailContainer');
+    while(clear.firstChild) {
+        clear.removeChild(clear.firstChild);    
+    }
+    //document.getElementById('output').innerHTML="";
     var getPageOfMessages = function(request, result) {
     request.execute(function(resp) {
     result = result.concat(resp.messages);
@@ -106,7 +110,7 @@ function listMessages() {
 }   
     
 refreshMessages();    
-setInterval(refreshMessages,60000);
+setInterval(refreshMessages,100000);
 }
 
 
@@ -134,9 +138,10 @@ request.execute(function(resp) {
 * @param {string} message Text to be placed in pre element.
 */
 function appendPre(message) {
-var pre = document.getElementById('output');
-var textContent = document.createTextNode(message + '\n');
-pre.appendChild(textContent);
+    $el = $('#emailContainer');
+    $el.append('<div class="email">' + message + '</div>');
+//var textContent = document.createTextNode(message + '\n');
+
 }
 
 

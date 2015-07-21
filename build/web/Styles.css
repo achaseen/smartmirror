@@ -15,7 +15,7 @@ html, body {
 #weatherContainer{
     width: 393px;
     padding-left: 75%;
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
 }
 
@@ -28,9 +28,13 @@ html, body {
 .rightEmail {
     width:393px;
     padding-left:75%;
-    font-family: fantasy;
+    font-family: sans-serif;
     text-align:left;
     font-size: 20px;
     color: greenyellow;
     overflow: hidden;
+}
+
+.email {
+    padding-top: 8px;
 }

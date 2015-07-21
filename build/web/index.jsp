@@ -38,7 +38,8 @@
         Authorize
       </button>
     </div>
-    <pre class="rightEmail" id="output"></pre>
+    <div id="emailContainer" class="rightEmail">
+         </div>
         
     </body>
 </html>
