@@ -1,9 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 // Your Client ID can be retrieved from your project in the Google
 // Developer Console, https://console.developers.google.com
 var CLIENT_ID = '790846769013-17vdsh4u1j1ne5bonorg0mjuscgg3dg2.apps.googleusercontent.com';
@@ -146,23 +140,3 @@ pre.appendChild(textContent);
 }
 
 
-
-
-var ServiceModule = (function() {
-    
-    var WeatherService = function() {
-
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json";
-    }
-    
-    _.extend(WeatherService.prototype, {
-        
-        queryWeather: function() {
- 
-            return new Q($.get(this.url));     
-        }
-    });
-    return {
-        WeatherService: WeatherService,
-    };
-})();
