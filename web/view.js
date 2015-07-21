@@ -25,8 +25,8 @@ var ViewModule = (function() {
           promise.then(function(result) {
              console.log(result.data); 
              location.innerHTML = "Your Location:" + result.name;
-             temp.innerHTML = "It is " + result.main.temp + " Degrees Outside";
-             cloud.innerHTML = "Look outside " + result.weather[0].description;
+             temp.innerHTML = "It is " + result.main.temp + " Degrees";
+             cloud.innerHTML = "Current Weather: " + result.weather[0].description;
              
              
           });

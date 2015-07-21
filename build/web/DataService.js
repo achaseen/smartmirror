@@ -77,29 +77,36 @@ gapi.client.load('gmail', 'v1', listMessages);
 
 
 
-function listMessages() {
-var getPageOfMessages = function(request, result) {
-  request.execute(function(resp) {
+function listMessages() { 
+    
+ function refreshMessages(){
+    document.getElementById('output').innerHTML="";
+    var getPageOfMessages = function(request, result) {
+    request.execute(function(resp) {
     result = result.concat(resp.messages);
 
     if(result.length > 0)
     {
-        appendPre('Gmail inbox:');
-        for(x = 0; x < result.length; x++){
-            outputMessages(result[x].id);
-
-        }
+    appendPre('Gmail inbox:');
+    for(x = 0; x < result.length; x++){
+        outputMessages(result[x].id);
 
     }
-  });
-};
 
-var initialRequest = gapi.client.gmail.users.messages.list({
-  'userId': 'me',
-  'maxResults': '10',
-  'q': 'label:inbox'
-});
-getPageOfMessages(initialRequest, []);
+    }
+    });
+    };
+
+    var initialRequest = gapi.client.gmail.users.messages.list({
+    'userId': 'me',
+    'maxResults': '10',
+    'q': 'label:inbox'
+    });
+    getPageOfMessages(initialRequest, []);
+}   
+    
+refreshMessages();    
+setInterval(refreshMessages,60000);
 }
 
 
@@ -114,35 +121,11 @@ request.execute(function(resp) {
                 appendPre(resp.payload.headers[i].value);
             }
         }
-
 });
 }
 
 
 
-/**
-* Print all Labels in the authorized user's inbox. If no labels
-* are found an appropriate message is printed.
-*/  
-function listLabels() {
-var request = gapi.client.gmail.users.labels.list({
-  'userId': 'me'
-});
-
-request.execute(function(resp) {
-  var labels = resp.labels;
-  appendPre('Labels:');
-
-  if (labels && labels.length > 0) {
-    for (i = 0; i < labels.length; i++) {
-      var label = labels[i];
-      appendPre(label.name)
-    }
-  } else {
-    appendPre('No Labels found.');
-  }
-});
-}
 
 /**
 * Append a pre element to the body containing the given message

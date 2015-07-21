@@ -24,10 +24,12 @@
         <title>Smart Mirror</title>
     </head>
     <body>
-        <div id="date_time" class="right"></div>        
-        <div class="right" id="clouds"> </div>
-        <div class="right" id="location"> </div>
-        <div class="right" id="temp"> </div>
+        <div id="weatherContainer">
+        <div id="date_time" class="weather"></div>        
+        <div class="weather" id="clouds"> </div>
+        <div class="weather" id="location"> </div>
+        <div class="weather" id="temp"> </div>
+        </div>
         
         <div id="authorize-div" style="display: none">
       <span>Authorize access to Gmail API</span>
