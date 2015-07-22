@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2015, 10:37:20 AM
+    Author     : abhitha
+*/
+
+html, body {
+    background-color: black;
+}
+
+#weatherContainer{
+    width: 393px;
+    padding-left: 75%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.weather {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+
+.rightEmail {
+    width:393px;
+    height: 520px;  
+    padding-left:75%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+#calendarContainer{
+    width: 393px;
+    padding-left: 75%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.email {
+    padding-top: 8px;
+}
+
+.rightCalendar {
+    width:393px;
+    padding-left:75%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+.calendar {
+    padding-top: 8px;
+}
+
+#taskContainer{
+    width: 393px;
+    padding-left: 75%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.rightTasks {
+    width:393px;
+    padding-left:75%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+.task {
+    padding-top: 8px;
+}
