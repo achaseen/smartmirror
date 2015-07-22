@@ -41,5 +41,7 @@
         </div>
         <div id="calendarContainer" class="rightCalendar">
         </div>    
+        <div id="taskContainer" class="rightTasks">
+        </div> 
     </body>
 </html>

@@ -22,7 +22,7 @@ var ServiceModule = (function() {
 // Developer Console, https://console.developers.google.com
 var CLIENT_ID = '790846769013-17vdsh4u1j1ne5bonorg0mjuscgg3dg2.apps.googleusercontent.com';
 
-var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/calendar.readonly'];
+var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks.readonly'];
 
 /**
 * Check if current user has authorized this application.
@@ -73,6 +73,7 @@ return false;
 function loadGmailApi() {
 gapi.client.load('gmail', 'v1', listMessages);
 gapi.client.load('calendar', 'v3', listUpcomingEvents);
+gapi.client.load('tasks', 'v1', listTaskLists);
 }
 
 
@@ -152,6 +153,7 @@ request.execute(function(resp) {
             });
 
             request.execute(function(resp) {
+                
               var events = resp.items;
               appendPreCalendar('Upcoming events:');
 
@@ -159,10 +161,13 @@ request.execute(function(resp) {
                 for (i = 0; i < events.length; i++) {
                   var event = events[i];
                   var when = event.start.dateTime;
+//                  debugger;
                   if (!when) {
                     when = event.start.date;
                   }
-                  appendPreCalendar(event.summary + ' (' + when + ')')
+                  var date = when.substring(0, when.length - 15);
+                  var time = when.substring(when.length - 14, when.length-6);
+                  appendPreCalendar(time + ": " + event.summary);
                 }
               } else {
                 appendPreCalendar('No upcoming events found.');
@@ -174,6 +179,35 @@ request.execute(function(resp) {
         setInterval(refreshEvents,60000);
       }
 
+    function listTaskLists() {
+        function refreshTaskLists(){
+            var clear = document.getElementById('taskContainer');
+            while(clear.firstChild) {
+                clear.removeChild(clear.firstChild);    
+            }
+            var request = gapi.client.tasks.tasklists.list({
+                'maxResults': 10
+              });
+
+              request.execute(function(resp) {
+
+                appendPreTasks('Task Lists:');
+                var taskLists = resp.items;
+                if (taskLists && taskLists.length > 0) {
+                  for (var i = 0; i < taskLists.length; i++) {
+                    var taskList = taskLists[i];
+                    //gapi.client.tasks.tasks.list({'tasklist': 'MDYxNzkzNDY5OTA1MzA2MTMyMjE6MDow'})
+
+                    appendPreTasks(taskList.title + ' (' + taskList.id + ')');
+                  }
+                } else {
+                  appendPreTasks('No task lists found.');
+                }
+              });
+          }
+        refreshTaskLists();
+        setInterval(refreshTaskLists,60000);
+  }
 
 
 /**
@@ -197,6 +231,19 @@ function appendPre(message) {
 function appendPreCalendar(message) {
     $el = $('#calendarContainer');
     $el.append('<div class="calendar">' + message + '</div>');
+//var textContent = document.createTextNode(message + '\n');
+
+}
+
+/**
+* Append a pre element to the body containing the given message
+* as its text node.
+*
+* @param {string} message Text to be placed in pre element.
+*/
+function appendPreTasks(message) {
+    $el = $('#taskContainer');
+    $el.append('<div class="task">' + message + '</div>');
 //var textContent = document.createTextNode(message + '\n');
 
 }
