@@ -35,6 +35,27 @@ html, body {
     overflow: hidden;
 }
 
+#calendarContainer{
+    width: 393px;
+    padding-left: 75%;
+    padding-top: 5%;
+    text-align: center;
+}
+
 .email {
+    padding-top: 8px;
+}
+
+.rightCalendar {
+    width:393px;
+    padding-left:75%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+.calendar {
     padding-top: 8px;
 }

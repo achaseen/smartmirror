@@ -18,7 +18,6 @@
         <link rel="stylesheet" type="text/css" href="Styles.css">
         <script type="text/javascript" src="date_time.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">            
-<!--        <script src="Gmail.js"></script>-->
         <script src="https://apis.google.com/js/client.js?onload=checkAuth">
         </script>
         <title>Smart Mirror</title>
@@ -32,14 +31,15 @@
         </div>
         
         <div id="authorize-div" style="display: none">
-      <span>Authorize access to Gmail API</span>
-      <!--Button for the user to click to initiate auth sequence -->
-      <button id="authorize-button" onclick="handleAuthClick(event)">
-        Authorize
-      </button>
-    </div>
-    <div id="emailContainer" class="rightEmail">
-         </div>
-        
+          <span>Authorize access to Gmail API</span>
+          <!--Button for the user to click to initiate auth sequence -->
+          <button id="authorize-button" onclick="handleAuthClick(event)">
+            Authorize
+          </button>
+        </div>
+        <div id="emailContainer" class="rightEmail"> 
+        </div>
+        <div id="calendarContainer" class="rightCalendar">
+        </div>    
     </body>
 </html>

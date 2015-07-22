@@ -22,7 +22,7 @@ var ServiceModule = (function() {
 // Developer Console, https://console.developers.google.com
 var CLIENT_ID = '790846769013-17vdsh4u1j1ne5bonorg0mjuscgg3dg2.apps.googleusercontent.com';
 
-var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
+var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/calendar.readonly'];
 
 /**
 * Check if current user has authorized this application.
@@ -72,6 +72,7 @@ return false;
 */
 function loadGmailApi() {
 gapi.client.load('gmail', 'v1', listMessages);
+gapi.client.load('calendar', 'v3', listUpcomingEvents);
 }
 
 
@@ -110,7 +111,7 @@ function listMessages() {
 }   
     
 refreshMessages();    
-setInterval(refreshMessages,100000);
+setInterval(refreshMessages,60000);
 }
 
 
@@ -128,6 +129,50 @@ request.execute(function(resp) {
 });
 }
 
+ /**
+       * Print the summary and start datetime/date of the next ten events in
+       * the authorized user's calendar. If no events are found an
+       * appropriate message is printed.
+       */
+      function listUpcomingEvents() {
+          
+        function refreshEvents(){
+            var clear = document.getElementById('calendarContainer');
+            while(clear.firstChild) {
+                clear.removeChild(clear.firstChild);    
+            }
+            
+            var request = gapi.client.calendar.events.list({
+              'calendarId': 'primary',
+              'timeMin': (new Date()).toISOString(),
+              'showDeleted': false,
+              'singleEvents': true,
+              'maxResults': 10,
+              'orderBy': 'startTime'
+            });
+
+            request.execute(function(resp) {
+              var events = resp.items;
+              appendPreCalendar('Upcoming events:');
+
+              if (events.length > 0) {
+                for (i = 0; i < events.length; i++) {
+                  var event = events[i];
+                  var when = event.start.dateTime;
+                  if (!when) {
+                    when = event.start.date;
+                  }
+                  appendPreCalendar(event.summary + ' (' + when + ')')
+                }
+              } else {
+                appendPreCalendar('No upcoming events found.');
+              }
+
+            });
+        }
+        refreshEvents();
+        setInterval(refreshEvents,60000);
+      }
 
 
 
@@ -143,5 +188,16 @@ function appendPre(message) {
 //var textContent = document.createTextNode(message + '\n');
 
 }
+/**
+* Append a pre element to the body containing the given message
+* as its text node.
+*
+* @param {string} message Text to be placed in pre element.
+*/
+function appendPreCalendar(message) {
+    $el = $('#calendarContainer');
+    $el.append('<div class="calendar">' + message + '</div>');
+//var textContent = document.createTextNode(message + '\n');
 
+}
 
