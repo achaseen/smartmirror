@@ -2,7 +2,7 @@ var ServiceModule = (function() {
     
     var WeatherService = function() {
 
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json";
+        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json&appid=44db6a862fba0b067b1930da0d769e98";
     }
     
     _.extend(WeatherService.prototype, {
@@ -16,6 +16,7 @@ var ServiceModule = (function() {
         WeatherService: WeatherService,
     };
     
+
 })();
 
 // Your Client ID can be retrieved from your project in the Google

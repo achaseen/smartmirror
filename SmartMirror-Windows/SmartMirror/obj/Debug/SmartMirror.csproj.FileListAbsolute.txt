@@ -3,3 +3,8 @@ E:\Documents\SmartyMirror\SmartMirror\SmartMirror\bin\SmartMirror.dll
 E:\Documents\SmartyMirror\SmartMirror\SmartMirror\bin\SmartMirror.pdb
 E:\Documents\SmartyMirror\SmartMirror\SmartMirror\obj\Debug\SmartMirror.dll
 E:\Documents\SmartyMirror\SmartMirror\SmartMirror\obj\Debug\SmartMirror.pdb
+D:\Dropbox\Dropbox\FYDP\SmartMirror-Windows\SmartMirror\bin\SmartMirror.dll.config
+D:\Dropbox\Dropbox\FYDP\SmartMirror-Windows\SmartMirror\bin\SmartMirror.dll
+D:\Dropbox\Dropbox\FYDP\SmartMirror-Windows\SmartMirror\bin\SmartMirror.pdb
+D:\Dropbox\Dropbox\FYDP\SmartMirror-Windows\SmartMirror\obj\Debug\SmartMirror.dll
+D:\Dropbox\Dropbox\FYDP\SmartMirror-Windows\SmartMirror\obj\Debug\SmartMirror.pdb
