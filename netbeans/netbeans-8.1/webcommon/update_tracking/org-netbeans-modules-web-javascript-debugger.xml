@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.web.javascript.debugger">
+    <module_version install_time="1445552248943" last="true" origin="installer" specification_version="1.13.1">
+        <file crc="3979912071" name="config/Modules/org-netbeans-modules-web-javascript-debugger.xml"/>
+        <file crc="3107004033" name="modules/locale/org-netbeans-modules-web-javascript-debugger_ja.jar"/>
+        <file crc="874103332" name="modules/locale/org-netbeans-modules-web-javascript-debugger_pt_BR.jar"/>
+        <file crc="115991122" name="modules/locale/org-netbeans-modules-web-javascript-debugger_ru.jar"/>
+        <file crc="1134735100" name="modules/locale/org-netbeans-modules-web-javascript-debugger_zh_CN.jar"/>
+        <file crc="1066815074" name="modules/org-netbeans-modules-web-javascript-debugger.jar"/>
+    </module_version>
+</module>

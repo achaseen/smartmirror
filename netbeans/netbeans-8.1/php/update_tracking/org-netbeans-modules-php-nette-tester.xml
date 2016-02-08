@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.nette.tester">
+    <module_version install_time="1445551571817" last="true" origin="installer" specification_version="0.14.1">
+        <file crc="2635650070" name="config/Modules/org-netbeans-modules-php-nette-tester.xml"/>
+        <file crc="832056998" name="modules/locale/org-netbeans-modules-php-nette-tester_ja.jar"/>
+        <file crc="3531782282" name="modules/locale/org-netbeans-modules-php-nette-tester_pt_BR.jar"/>
+        <file crc="3336165595" name="modules/locale/org-netbeans-modules-php-nette-tester_ru.jar"/>
+        <file crc="1452545059" name="modules/locale/org-netbeans-modules-php-nette-tester_zh_CN.jar"/>
+        <file crc="2010618617" name="modules/org-netbeans-modules-php-nette-tester.jar"/>
+    </module_version>
+</module>

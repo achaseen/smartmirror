@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.j2ee.ejbjarproject">
+    <module_version install_time="1445551742959" last="true" origin="installer" specification_version="1.55.1">
+        <file crc="2236791138" name="config/Modules/org-netbeans-modules-j2ee-ejbjarproject.xml"/>
+        <file crc="1385634395" name="modules/locale/org-netbeans-modules-j2ee-ejbjarproject_ja.jar"/>
+        <file crc="2477470410" name="modules/locale/org-netbeans-modules-j2ee-ejbjarproject_pt_BR.jar"/>
+        <file crc="4811504" name="modules/locale/org-netbeans-modules-j2ee-ejbjarproject_ru.jar"/>
+        <file crc="2834219762" name="modules/locale/org-netbeans-modules-j2ee-ejbjarproject_zh_CN.jar"/>
+        <file crc="3476538180" name="modules/org-netbeans-modules-j2ee-ejbjarproject.jar"/>
+    </module_version>
+</module>

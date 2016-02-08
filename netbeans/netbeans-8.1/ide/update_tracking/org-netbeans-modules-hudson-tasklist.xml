@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.hudson.tasklist">
+    <module_version install_time="1445551553820" last="true" origin="installer" specification_version="1.16.1">
+        <file crc="3995101366" name="config/Modules/org-netbeans-modules-hudson-tasklist.xml"/>
+        <file crc="540747643" name="modules/locale/org-netbeans-modules-hudson-tasklist_ja.jar"/>
+        <file crc="1604484661" name="modules/locale/org-netbeans-modules-hudson-tasklist_pt_BR.jar"/>
+        <file crc="2565331761" name="modules/locale/org-netbeans-modules-hudson-tasklist_ru.jar"/>
+        <file crc="2482940064" name="modules/locale/org-netbeans-modules-hudson-tasklist_zh_CN.jar"/>
+        <file crc="3168991618" name="modules/org-netbeans-modules-hudson-tasklist.jar"/>
+    </module_version>
+</module>

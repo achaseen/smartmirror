@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.mixeddev">
+    <module_version install_time="1445551333132" last="false" origin="installer" specification_version="1.1.2">
+        <file crc="3881596764" name="VERSION.txt"/>
+        <file crc="4099782579" name="config/Modules/org-netbeans-modules-cnd-mixeddev.xml"/>
+        <file crc="1889420408" name="modules/locale/org-netbeans-modules-cnd-mixeddev_ja.jar"/>
+        <file crc="384312327" name="modules/locale/org-netbeans-modules-cnd-mixeddev_pt_BR.jar"/>
+        <file crc="1865772113" name="modules/locale/org-netbeans-modules-cnd-mixeddev_ru.jar"/>
+        <file crc="3995511893" name="modules/locale/org-netbeans-modules-cnd-mixeddev_zh_CN.jar"/>
+        <file crc="1276658009" name="modules/org-netbeans-modules-cnd-mixeddev.jar"/>
+    </module_version>
+    <module_version install_time="1454890603874" last="true" origin="NetBeans Distribution" specification_version="1.1.4">
+        <file crc="3881596764" name="VERSION.txt"/>
+        <file crc="4099782579" name="config/Modules/org-netbeans-modules-cnd-mixeddev.xml"/>
+        <file crc="2817861952" name="modules/locale/org-netbeans-modules-cnd-mixeddev_ja.jar"/>
+        <file crc="4235694643" name="modules/locale/org-netbeans-modules-cnd-mixeddev_pt_BR.jar"/>
+        <file crc="3406854928" name="modules/locale/org-netbeans-modules-cnd-mixeddev_ru.jar"/>
+        <file crc="3567351281" name="modules/locale/org-netbeans-modules-cnd-mixeddev_zh_CN.jar"/>
+        <file crc="2760072354" name="modules/org-netbeans-modules-cnd-mixeddev.jar"/>
+    </module_version>
+</module>

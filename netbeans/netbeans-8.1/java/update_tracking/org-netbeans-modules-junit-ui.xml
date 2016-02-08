@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.junit.ui">
+    <module_version install_time="1445552276018" last="true" origin="installer" specification_version="1.3.1">
+        <file crc="3064322340" name="config/Modules/org-netbeans-modules-junit-ui.xml"/>
+        <file crc="1220411633" name="modules/locale/org-netbeans-modules-junit-ui_ja.jar"/>
+        <file crc="3384101156" name="modules/locale/org-netbeans-modules-junit-ui_pt_BR.jar"/>
+        <file crc="3069705535" name="modules/locale/org-netbeans-modules-junit-ui_ru.jar"/>
+        <file crc="2360905173" name="modules/locale/org-netbeans-modules-junit-ui_zh_CN.jar"/>
+        <file crc="1736862972" name="modules/org-netbeans-modules-junit-ui.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.php.zend">
+    <module_version install_time="1445552159807" last="true" origin="installer" specification_version="1.32.1">
+        <file crc="3611012991" name="config/Modules/org-netbeans-modules-php-zend.xml"/>
+        <file crc="1548465262" name="modules/locale/org-netbeans-modules-php-zend_ja.jar"/>
+        <file crc="532577513" name="modules/locale/org-netbeans-modules-php-zend_pt_BR.jar"/>
+        <file crc="2160459225" name="modules/locale/org-netbeans-modules-php-zend_ru.jar"/>
+        <file crc="893914043" name="modules/locale/org-netbeans-modules-php-zend_zh_CN.jar"/>
+        <file crc="2977149861" name="modules/org-netbeans-modules-php-zend.jar"/>
+        <file crc="1280777481" name="zend/NetBeansCommandsProvider.php"/>
+    </module_version>
+</module>

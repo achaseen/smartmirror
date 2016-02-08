@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.eclipse.mylyn.bugzilla.core">
+    <module_version install_time="1445547828509" last="true" origin="installer" specification_version="3.14.2.v20150217-2341">
+        <file crc="2863355554" name="config/Modules/org-eclipse-mylyn-bugzilla-core.xml"/>
+        <file crc="618564309" name="modules/org-eclipse-mylyn-bugzilla-core.jar"/>
+    </module_version>
+</module>

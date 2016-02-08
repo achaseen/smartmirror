@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.html.editor.lib/3">
+    <module_version install_time="1445551079432" last="true" origin="installer" specification_version="3.30.1">
+        <file crc="1608566786" name="config/Modules/org-netbeans-modules-html-editor-lib.xml"/>
+        <file crc="3513767917" name="modules/locale/org-netbeans-modules-html-editor-lib_ja.jar"/>
+        <file crc="1462095958" name="modules/locale/org-netbeans-modules-html-editor-lib_pt_BR.jar"/>
+        <file crc="2640800638" name="modules/locale/org-netbeans-modules-html-editor-lib_ru.jar"/>
+        <file crc="2349474536" name="modules/locale/org-netbeans-modules-html-editor-lib_zh_CN.jar"/>
+        <file crc="4196690829" name="modules/org-netbeans-modules-html-editor-lib.jar"/>
+    </module_version>
+</module>

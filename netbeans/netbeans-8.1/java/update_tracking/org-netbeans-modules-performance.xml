@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.performance">
+    <module_version install_time="1445550199378" last="true" origin="installer" specification_version="1.6.1">
+        <file crc="2039327621" name="config/Modules/org-netbeans-modules-performance.xml"/>
+        <file crc="59394169" name="modules/locale/org-netbeans-modules-performance_ja.jar"/>
+        <file crc="1612816591" name="modules/locale/org-netbeans-modules-performance_pt_BR.jar"/>
+        <file crc="3288823424" name="modules/locale/org-netbeans-modules-performance_ru.jar"/>
+        <file crc="2707143329" name="modules/locale/org-netbeans-modules-performance_zh_CN.jar"/>
+        <file crc="2515551750" name="modules/org-netbeans-modules-performance.jar"/>
+    </module_version>
+</module>

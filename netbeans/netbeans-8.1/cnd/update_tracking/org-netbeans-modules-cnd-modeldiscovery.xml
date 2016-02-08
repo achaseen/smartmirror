@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.modeldiscovery">
+    <module_version install_time="1445550456424" last="false" origin="installer" specification_version="1.30.1.1">
+        <file crc="3499137734" name="config/Modules/org-netbeans-modules-cnd-modeldiscovery.xml"/>
+        <file crc="1652750528" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_ja.jar"/>
+        <file crc="1814313525" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_pt_BR.jar"/>
+        <file crc="2120980318" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_ru.jar"/>
+        <file crc="2480784573" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_zh_CN.jar"/>
+        <file crc="3721029503" name="modules/org-netbeans-modules-cnd-modeldiscovery.jar"/>
+    </module_version>
+    <module_version install_time="1454890604949" last="true" origin="NetBeans Distribution" specification_version="1.30.3.1">
+        <file crc="3499137734" name="config/Modules/org-netbeans-modules-cnd-modeldiscovery.xml"/>
+        <file crc="3382723262" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_ja.jar"/>
+        <file crc="3372688240" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_pt_BR.jar"/>
+        <file crc="1860536073" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_ru.jar"/>
+        <file crc="1712794707" name="modules/locale/org-netbeans-modules-cnd-modeldiscovery_zh_CN.jar"/>
+        <file crc="4009926732" name="modules/org-netbeans-modules-cnd-modeldiscovery.jar"/>
+    </module_version>
+</module>

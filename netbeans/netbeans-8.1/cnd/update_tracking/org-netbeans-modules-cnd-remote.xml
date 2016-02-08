@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.remote">
+    <module_version install_time="1445550445355" last="false" origin="installer" specification_version="1.27.3.1">
+        <file crc="1307695046" name="bin/Linux-sparc_64/rfs_controller"/>
+        <file crc="2814177556" name="bin/Linux-sparc_64/rfs_preload.so"/>
+        <file crc="55868787" name="bin/Linux-sparc_64/rfs_test_env"/>
+        <file crc="3325163565" name="bin/Linux-x86/rfs_controller"/>
+        <file crc="2246728670" name="bin/Linux-x86/rfs_preload.so"/>
+        <file crc="3959085131" name="bin/Linux-x86/rfs_test_env"/>
+        <file crc="1340667283" name="bin/Linux-x86_64/rfs_controller"/>
+        <file crc="3288117300" name="bin/Linux-x86_64/rfs_preload.so"/>
+        <file crc="3339728144" name="bin/Linux-x86_64/rfs_test_env"/>
+        <file crc="4114589120" name="bin/SunOS-sparc/rfs_controller"/>
+        <file crc="2704299364" name="bin/SunOS-sparc/rfs_preload.so"/>
+        <file crc="3701062026" name="bin/SunOS-sparc/rfs_test_env"/>
+        <file crc="3634294374" name="bin/SunOS-sparc_64/rfs_controller"/>
+        <file crc="4104350179" name="bin/SunOS-sparc_64/rfs_preload.so"/>
+        <file crc="1728628743" name="bin/SunOS-sparc_64/rfs_test_env"/>
+        <file crc="1488719759" name="bin/SunOS-x86/rfs_controller"/>
+        <file crc="3341542682" name="bin/SunOS-x86/rfs_preload.so"/>
+        <file crc="2528002857" name="bin/SunOS-x86/rfs_test_env"/>
+        <file crc="3660904287" name="bin/SunOS-x86_64/rfs_controller"/>
+        <file crc="2703791400" name="bin/SunOS-x86_64/rfs_preload.so"/>
+        <file crc="482114052" name="bin/SunOS-x86_64/rfs_test_env"/>
+        <file crc="1041944204" name="bin/rfs_test_env.sh"/>
+        <file crc="1691585175" name="config/Modules/org-netbeans-modules-cnd-remote.xml"/>
+        <file crc="760212559" name="modules/locale/org-netbeans-modules-cnd-remote_ja.jar"/>
+        <file crc="2563114391" name="modules/locale/org-netbeans-modules-cnd-remote_pt_BR.jar"/>
+        <file crc="1356969647" name="modules/locale/org-netbeans-modules-cnd-remote_ru.jar"/>
+        <file crc="2295835457" name="modules/locale/org-netbeans-modules-cnd-remote_zh_CN.jar"/>
+        <file crc="1961564180" name="modules/org-netbeans-modules-cnd-remote.jar"/>
+    </module_version>
+    <module_version install_time="1454890610188" last="true" origin="NetBeans Distribution" specification_version="1.27.6.1">
+        <file crc="1307695046" name="bin/Linux-sparc_64/rfs_controller"/>
+        <file crc="2814177556" name="bin/Linux-sparc_64/rfs_preload.so"/>
+        <file crc="55868787" name="bin/Linux-sparc_64/rfs_test_env"/>
+        <file crc="3325163565" name="bin/Linux-x86/rfs_controller"/>
+        <file crc="2246728670" name="bin/Linux-x86/rfs_preload.so"/>
+        <file crc="3959085131" name="bin/Linux-x86/rfs_test_env"/>
+        <file crc="1340667283" name="bin/Linux-x86_64/rfs_controller"/>
+        <file crc="3288117300" name="bin/Linux-x86_64/rfs_preload.so"/>
+        <file crc="3339728144" name="bin/Linux-x86_64/rfs_test_env"/>
+        <file crc="4114589120" name="bin/SunOS-sparc/rfs_controller"/>
+        <file crc="2704299364" name="bin/SunOS-sparc/rfs_preload.so"/>
+        <file crc="3701062026" name="bin/SunOS-sparc/rfs_test_env"/>
+        <file crc="3634294374" name="bin/SunOS-sparc_64/rfs_controller"/>
+        <file crc="4104350179" name="bin/SunOS-sparc_64/rfs_preload.so"/>
+        <file crc="1728628743" name="bin/SunOS-sparc_64/rfs_test_env"/>
+        <file crc="1488719759" name="bin/SunOS-x86/rfs_controller"/>
+        <file crc="3341542682" name="bin/SunOS-x86/rfs_preload.so"/>
+        <file crc="2528002857" name="bin/SunOS-x86/rfs_test_env"/>
+        <file crc="3660904287" name="bin/SunOS-x86_64/rfs_controller"/>
+        <file crc="2703791400" name="bin/SunOS-x86_64/rfs_preload.so"/>
+        <file crc="482114052" name="bin/SunOS-x86_64/rfs_test_env"/>
+        <file crc="1041944204" name="bin/rfs_test_env.sh"/>
+        <file crc="1691585175" name="config/Modules/org-netbeans-modules-cnd-remote.xml"/>
+        <file crc="2330259142" name="modules/locale/org-netbeans-modules-cnd-remote_ja.jar"/>
+        <file crc="1369580522" name="modules/locale/org-netbeans-modules-cnd-remote_pt_BR.jar"/>
+        <file crc="1092346032" name="modules/locale/org-netbeans-modules-cnd-remote_ru.jar"/>
+        <file crc="4248976862" name="modules/locale/org-netbeans-modules-cnd-remote_zh_CN.jar"/>
+        <file crc="2407002245" name="modules/org-netbeans-modules-cnd-remote.jar"/>
+    </module_version>
+</module>

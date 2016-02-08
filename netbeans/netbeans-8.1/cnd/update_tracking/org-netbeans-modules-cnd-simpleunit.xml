@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.simpleunit">
+    <module_version install_time="1445550428970" last="false" origin="installer" specification_version="1.21.1.1.1">
+        <file crc="2998604319" name="config/Modules/org-netbeans-modules-cnd-simpleunit.xml"/>
+        <file crc="255100879" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ja.jar"/>
+        <file crc="3580451343" name="modules/locale/org-netbeans-modules-cnd-simpleunit_pt_BR.jar"/>
+        <file crc="3214178085" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ru.jar"/>
+        <file crc="3597665526" name="modules/locale/org-netbeans-modules-cnd-simpleunit_zh_CN.jar"/>
+        <file crc="4143504272" name="modules/org-netbeans-modules-cnd-simpleunit.jar"/>
+    </module_version>
+    <module_version install_time="1454890610075" last="true" origin="NetBeans Distribution" specification_version="1.21.3.1.1">
+        <file crc="2998604319" name="config/Modules/org-netbeans-modules-cnd-simpleunit.xml"/>
+        <file crc="3910413430" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ja.jar"/>
+        <file crc="16041003" name="modules/locale/org-netbeans-modules-cnd-simpleunit_pt_BR.jar"/>
+        <file crc="2062960256" name="modules/locale/org-netbeans-modules-cnd-simpleunit_ru.jar"/>
+        <file crc="1176846262" name="modules/locale/org-netbeans-modules-cnd-simpleunit_zh_CN.jar"/>
+        <file crc="2122730599" name="modules/org-netbeans-modules-cnd-simpleunit.jar"/>
+    </module_version>
+</module>

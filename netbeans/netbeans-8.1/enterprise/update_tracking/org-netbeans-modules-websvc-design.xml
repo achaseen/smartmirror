@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.websvc.design">
+    <module_version install_time="1445551809345" last="true" origin="installer" specification_version="1.27.1">
+        <file crc="1660244104" name="config/Modules/org-netbeans-modules-websvc-design.xml"/>
+        <file crc="4170413404" name="modules/locale/org-netbeans-modules-websvc-design_ja.jar"/>
+        <file crc="4073795426" name="modules/locale/org-netbeans-modules-websvc-design_pt_BR.jar"/>
+        <file crc="1092737687" name="modules/locale/org-netbeans-modules-websvc-design_ru.jar"/>
+        <file crc="867417861" name="modules/locale/org-netbeans-modules-websvc-design_zh_CN.jar"/>
+        <file crc="3596223667" name="modules/org-netbeans-modules-websvc-design.jar"/>
+    </module_version>
+</module>

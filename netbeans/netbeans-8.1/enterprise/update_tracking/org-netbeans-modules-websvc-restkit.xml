@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.websvc.restkit/0">
+    <module_version install_time="1445552400826" last="true" origin="installer" specification_version="1.26.1">
+        <file crc="2448436181" name="config/Modules/org-netbeans-modules-websvc-restkit.xml"/>
+        <file crc="1211327484" name="modules/locale/org-netbeans-modules-websvc-restkit_ja.jar"/>
+        <file crc="188486349" name="modules/locale/org-netbeans-modules-websvc-restkit_pt_BR.jar"/>
+        <file crc="3737271928" name="modules/locale/org-netbeans-modules-websvc-restkit_ru.jar"/>
+        <file crc="3637218842" name="modules/locale/org-netbeans-modules-websvc-restkit_zh_CN.jar"/>
+        <file crc="2373499356" name="modules/org-netbeans-modules-websvc-restkit.jar"/>
+    </module_version>
+</module>

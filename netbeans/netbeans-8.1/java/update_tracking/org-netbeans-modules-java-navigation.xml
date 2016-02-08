@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.java.navigation/1">
+    <module_version install_time="1445551001822" last="true" origin="installer" specification_version="1.38.1">
+        <file crc="555094464" name="config/Modules/org-netbeans-modules-java-navigation.xml"/>
+        <file crc="2641093078" name="modules/locale/org-netbeans-modules-java-navigation_ja.jar"/>
+        <file crc="1796173121" name="modules/locale/org-netbeans-modules-java-navigation_pt_BR.jar"/>
+        <file crc="1118274556" name="modules/locale/org-netbeans-modules-java-navigation_ru.jar"/>
+        <file crc="4144001939" name="modules/locale/org-netbeans-modules-java-navigation_zh_CN.jar"/>
+        <file crc="3269249328" name="modules/org-netbeans-modules-java-navigation.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.weblogic.common">
+    <module_version install_time="1445548839611" last="true" origin="installer" specification_version="1.12.1">
+        <file crc="4294327782" name="config/Modules/org-netbeans-modules-weblogic-common.xml"/>
+        <file crc="823455121" name="modules/locale/org-netbeans-modules-weblogic-common_ja.jar"/>
+        <file crc="410552126" name="modules/locale/org-netbeans-modules-weblogic-common_pt_BR.jar"/>
+        <file crc="3006093138" name="modules/locale/org-netbeans-modules-weblogic-common_ru.jar"/>
+        <file crc="1608127464" name="modules/locale/org-netbeans-modules-weblogic-common_zh_CN.jar"/>
+        <file crc="3868441296" name="modules/org-netbeans-modules-weblogic-common.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.openide.filesystems.compat8">
+    <module_version install_time="1445548966499" last="true" origin="installer" specification_version="9.7.1">
+        <file crc="4031022660" name="core/locale/org-openide-filesystems-compat8_ja.jar"/>
+        <file crc="1851515980" name="core/locale/org-openide-filesystems-compat8_pt_BR.jar"/>
+        <file crc="2619832408" name="core/locale/org-openide-filesystems-compat8_ru.jar"/>
+        <file crc="3145024831" name="core/locale/org-openide-filesystems-compat8_zh_CN.jar"/>
+        <file crc="4293053444" name="core/org-openide-filesystems-compat8.jar"/>
+    </module_version>
+</module>

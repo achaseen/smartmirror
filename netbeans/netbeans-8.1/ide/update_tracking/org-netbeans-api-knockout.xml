@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.api.knockout">
+    <module_version install_time="1445549174276" last="true" origin="installer" specification_version="1.2.1">
+        <file crc="2502306428" name="config/Modules/org-netbeans-api-knockout.xml"/>
+        <file crc="1980532896" name="modules/locale/org-netbeans-api-knockout_ja.jar"/>
+        <file crc="793938251" name="modules/locale/org-netbeans-api-knockout_pt_BR.jar"/>
+        <file crc="981168766" name="modules/locale/org-netbeans-api-knockout_ru.jar"/>
+        <file crc="2308491804" name="modules/locale/org-netbeans-api-knockout_zh_CN.jar"/>
+        <file crc="3625425759" name="modules/org-netbeans-api-knockout.jar"/>
+    </module_version>
+</module>

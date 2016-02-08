@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.repository.api/1">
+    <module_version install_time="1445549510606" last="false" origin="installer" specification_version="1.31.1.1">
+        <file crc="1497290878" name="config/Modules/org-netbeans-modules-cnd-repository-api.xml"/>
+        <file crc="2333463654" name="modules/locale/org-netbeans-modules-cnd-repository-api_ja.jar"/>
+        <file crc="2466802995" name="modules/locale/org-netbeans-modules-cnd-repository-api_pt_BR.jar"/>
+        <file crc="1142247215" name="modules/locale/org-netbeans-modules-cnd-repository-api_ru.jar"/>
+        <file crc="666884468" name="modules/locale/org-netbeans-modules-cnd-repository-api_zh_CN.jar"/>
+        <file crc="2328642728" name="modules/org-netbeans-modules-cnd-repository-api.jar"/>
+    </module_version>
+    <module_version install_time="1454890608204" last="true" origin="NetBeans Distribution" specification_version="1.31.3.1">
+        <file crc="1497290878" name="config/Modules/org-netbeans-modules-cnd-repository-api.xml"/>
+        <file crc="2574298966" name="modules/locale/org-netbeans-modules-cnd-repository-api_ja.jar"/>
+        <file crc="341482069" name="modules/locale/org-netbeans-modules-cnd-repository-api_pt_BR.jar"/>
+        <file crc="770786276" name="modules/locale/org-netbeans-modules-cnd-repository-api_ru.jar"/>
+        <file crc="2518414566" name="modules/locale/org-netbeans-modules-cnd-repository-api_zh_CN.jar"/>
+        <file crc="2155617718" name="modules/org-netbeans-modules-cnd-repository-api.jar"/>
+    </module_version>
+</module>

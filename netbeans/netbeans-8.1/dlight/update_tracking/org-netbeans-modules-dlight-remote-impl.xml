@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.dlight.remote.impl">
+    <module_version install_time="1445550399961" last="false" origin="installer" specification_version="1.26.4.1">
+        <file crc="2311483221" name="bin/FreeBSD-x86/fs_server"/>
+        <file crc="864781673" name="bin/Linux-arm/fs_server"/>
+        <file crc="1526508800" name="bin/Linux-sparc/fs_server"/>
+        <file crc="3842260195" name="bin/Linux-x86/fs_server"/>
+        <file crc="3527394694" name="bin/Linux-x86_64/fs_server"/>
+        <file crc="891904646" name="bin/MacOSX-x86/fs_server"/>
+        <file crc="3508707970" name="bin/SunOS-sparc/fs_server"/>
+        <file crc="2246483821" name="bin/SunOS-x86/fs_server"/>
+        <file crc="1767087553" name="config/Modules/org-netbeans-modules-dlight-remote-impl.xml"/>
+        <file crc="49375243" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ja.jar"/>
+        <file crc="3378287209" name="modules/locale/org-netbeans-modules-dlight-remote-impl_pt_BR.jar"/>
+        <file crc="3255908979" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ru.jar"/>
+        <file crc="1113803021" name="modules/locale/org-netbeans-modules-dlight-remote-impl_zh_CN.jar"/>
+        <file crc="289339881" name="modules/org-netbeans-modules-dlight-remote-impl.jar"/>
+    </module_version>
+    <module_version install_time="1454890612707" last="true" origin="NetBeans Distribution" specification_version="1.26.8.1">
+        <file crc="2956491497" name="bin/FreeBSD-x86/fs_server"/>
+        <file crc="1667342037" name="bin/Linux-arm/fs_server"/>
+        <file crc="3849172042" name="bin/Linux-sparc/fs_server"/>
+        <file crc="1168315064" name="bin/Linux-x86/fs_server"/>
+        <file crc="3359562459" name="bin/Linux-x86_64/fs_server"/>
+        <file crc="533332894" name="bin/MacOSX-x86/fs_server"/>
+        <file crc="3613298816" name="bin/SunOS-sparc/fs_server"/>
+        <file crc="2742203453" name="bin/SunOS-x86/fs_server"/>
+        <file crc="1767087553" name="config/Modules/org-netbeans-modules-dlight-remote-impl.xml"/>
+        <file crc="4127410744" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ja.jar"/>
+        <file crc="251875504" name="modules/locale/org-netbeans-modules-dlight-remote-impl_pt_BR.jar"/>
+        <file crc="2642936906" name="modules/locale/org-netbeans-modules-dlight-remote-impl_ru.jar"/>
+        <file crc="1341330660" name="modules/locale/org-netbeans-modules-dlight-remote-impl_zh_CN.jar"/>
+        <file crc="816634755" name="modules/org-netbeans-modules-dlight-remote-impl.jar"/>
+    </module_version>
+</module>

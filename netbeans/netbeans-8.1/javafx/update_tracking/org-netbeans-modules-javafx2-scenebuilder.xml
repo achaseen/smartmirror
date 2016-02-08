@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.javafx2.scenebuilder">
+    <module_version install_time="1445551882229" last="true" origin="installer" specification_version="1.16.1">
+        <file crc="2477435886" name="config/Modules/org-netbeans-modules-javafx2-scenebuilder.xml"/>
+        <file crc="1785116663" name="modules/locale/org-netbeans-modules-javafx2-scenebuilder_ja.jar"/>
+        <file crc="1214432448" name="modules/locale/org-netbeans-modules-javafx2-scenebuilder_pt_BR.jar"/>
+        <file crc="2731064723" name="modules/locale/org-netbeans-modules-javafx2-scenebuilder_ru.jar"/>
+        <file crc="934668948" name="modules/locale/org-netbeans-modules-javafx2-scenebuilder_zh_CN.jar"/>
+        <file crc="3029446586" name="modules/org-netbeans-modules-javafx2-scenebuilder.jar"/>
+    </module_version>
+</module>

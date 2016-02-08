@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.web.jsf.kit">
+    <module_version install_time="1445552384576" last="true" origin="installer" specification_version="1.29.1">
+        <file crc="1826923980" name="config/Modules/org-netbeans-modules-web-jsf-kit.xml"/>
+        <file crc="2616271850" name="modules/locale/org-netbeans-modules-web-jsf-kit_ja.jar"/>
+        <file crc="4071103222" name="modules/locale/org-netbeans-modules-web-jsf-kit_pt_BR.jar"/>
+        <file crc="965930050" name="modules/locale/org-netbeans-modules-web-jsf-kit_ru.jar"/>
+        <file crc="3888163515" name="modules/locale/org-netbeans-modules-web-jsf-kit_zh_CN.jar"/>
+        <file crc="3817167369" name="modules/org-netbeans-modules-web-jsf-kit.jar"/>
+    </module_version>
+</module>

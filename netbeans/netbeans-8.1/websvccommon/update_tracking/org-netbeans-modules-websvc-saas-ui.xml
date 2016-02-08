@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.websvc.saas.ui">
+    <module_version install_time="1445550320375" last="true" origin="installer" specification_version="1.27.1">
+        <file crc="1098162674" name="config/Modules/org-netbeans-modules-websvc-saas-ui.xml"/>
+        <file crc="1811322588" name="modules/locale/org-netbeans-modules-websvc-saas-ui_ja.jar"/>
+        <file crc="3814201798" name="modules/locale/org-netbeans-modules-websvc-saas-ui_pt_BR.jar"/>
+        <file crc="2097136233" name="modules/locale/org-netbeans-modules-websvc-saas-ui_ru.jar"/>
+        <file crc="2172567932" name="modules/locale/org-netbeans-modules-websvc-saas-ui_zh_CN.jar"/>
+        <file crc="229254846" name="modules/org-netbeans-modules-websvc-saas-ui.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,6 @@
+user=1454890236000
+crc=3245
+locale=en_CA
+branding=null
+java.version=1.7.0_95
+java.vm.version=24.95-b01

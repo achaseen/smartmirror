@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.autoupdate.services">
+    <module_version install_time="1445549439084" last="true" origin="installer" specification_version="1.51.1">
+        <file crc="83784818" name="config/Modules/org-netbeans-modules-autoupdate-services.xml"/>
+        <file crc="1246524718" name="modules/ext/locale/updater_ja.jar"/>
+        <file crc="837763345" name="modules/ext/locale/updater_pt_BR.jar"/>
+        <file crc="1213632679" name="modules/ext/locale/updater_ru.jar"/>
+        <file crc="2742207019" name="modules/ext/locale/updater_zh_CN.jar"/>
+        <file crc="82111423" name="modules/ext/updater.jar"/>
+        <file crc="2924555283" name="modules/locale/org-netbeans-modules-autoupdate-services_ja.jar"/>
+        <file crc="277215976" name="modules/locale/org-netbeans-modules-autoupdate-services_pt_BR.jar"/>
+        <file crc="3448446330" name="modules/locale/org-netbeans-modules-autoupdate-services_ru.jar"/>
+        <file crc="4213368287" name="modules/locale/org-netbeans-modules-autoupdate-services_zh_CN.jar"/>
+        <file crc="2329778370" name="modules/org-netbeans-modules-autoupdate-services.jar"/>
+    </module_version>
+</module>

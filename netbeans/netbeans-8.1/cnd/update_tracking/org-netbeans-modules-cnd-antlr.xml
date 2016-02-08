@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.antlr">
+    <module_version install_time="1445548431306" last="false" origin="installer" specification_version="2.36.1.1">
+        <file crc="2331893297" name="config/Modules/org-netbeans-modules-cnd-antlr.xml"/>
+        <file crc="4234689431" name="modules/locale/org-netbeans-modules-cnd-antlr_ja.jar"/>
+        <file crc="2953777044" name="modules/locale/org-netbeans-modules-cnd-antlr_pt_BR.jar"/>
+        <file crc="3170462080" name="modules/locale/org-netbeans-modules-cnd-antlr_ru.jar"/>
+        <file crc="157476998" name="modules/locale/org-netbeans-modules-cnd-antlr_zh_CN.jar"/>
+        <file crc="4249511112" name="modules/org-netbeans-modules-cnd-antlr.jar"/>
+    </module_version>
+    <module_version install_time="1454890605130" last="true" origin="NetBeans Distribution" specification_version="2.36.3.1">
+        <file crc="2331893297" name="config/Modules/org-netbeans-modules-cnd-antlr.xml"/>
+        <file crc="3812992766" name="modules/locale/org-netbeans-modules-cnd-antlr_ja.jar"/>
+        <file crc="2292783134" name="modules/locale/org-netbeans-modules-cnd-antlr_pt_BR.jar"/>
+        <file crc="4059881623" name="modules/locale/org-netbeans-modules-cnd-antlr_ru.jar"/>
+        <file crc="3710713506" name="modules/locale/org-netbeans-modules-cnd-antlr_zh_CN.jar"/>
+        <file crc="1424916336" name="modules/org-netbeans-modules-cnd-antlr.jar"/>
+    </module_version>
+</module>

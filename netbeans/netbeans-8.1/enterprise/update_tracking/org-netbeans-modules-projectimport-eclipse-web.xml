@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.projectimport.eclipse.web">
+    <module_version install_time="1445552065941" last="true" origin="installer" specification_version="1.26.1.1">
+        <file crc="978283468" name="config/Modules/org-netbeans-modules-projectimport-eclipse-web.xml"/>
+        <file crc="1864935620" name="modules/locale/org-netbeans-modules-projectimport-eclipse-web_ja.jar"/>
+        <file crc="3590944490" name="modules/locale/org-netbeans-modules-projectimport-eclipse-web_pt_BR.jar"/>
+        <file crc="1627862142" name="modules/locale/org-netbeans-modules-projectimport-eclipse-web_ru.jar"/>
+        <file crc="4280419775" name="modules/locale/org-netbeans-modules-projectimport-eclipse-web_zh_CN.jar"/>
+        <file crc="2424692588" name="modules/org-netbeans-modules-projectimport-eclipse-web.jar"/>
+    </module_version>
+</module>

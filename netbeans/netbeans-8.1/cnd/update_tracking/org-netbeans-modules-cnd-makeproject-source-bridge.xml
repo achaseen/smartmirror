@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.makeproject.source.bridge">
+    <module_version install_time="1445549688320" last="false" origin="installer" specification_version="1.25.1.1">
+        <file crc="3201123659" name="config/Modules/org-netbeans-modules-cnd-makeproject-source-bridge.xml"/>
+        <file crc="918068632" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_ja.jar"/>
+        <file crc="2648888617" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_pt_BR.jar"/>
+        <file crc="2065878776" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_ru.jar"/>
+        <file crc="4015928856" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_zh_CN.jar"/>
+        <file crc="685235308" name="modules/org-netbeans-modules-cnd-makeproject-source-bridge.jar"/>
+    </module_version>
+    <module_version install_time="1454890607465" last="true" origin="NetBeans Distribution" specification_version="1.25.3.1">
+        <file crc="3201123659" name="config/Modules/org-netbeans-modules-cnd-makeproject-source-bridge.xml"/>
+        <file crc="4035443613" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_ja.jar"/>
+        <file crc="2687538764" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_pt_BR.jar"/>
+        <file crc="969174729" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_ru.jar"/>
+        <file crc="362628668" name="modules/locale/org-netbeans-modules-cnd-makeproject-source-bridge_zh_CN.jar"/>
+        <file crc="2910102506" name="modules/org-netbeans-modules-cnd-makeproject-source-bridge.jar"/>
+    </module_version>
+</module>

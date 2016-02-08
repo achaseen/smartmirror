@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module codename="org.netbeans.modules.cnd.script">
+    <module_version install_time="1445550699717" last="false" origin="installer" specification_version="1.22.1.1">
+        <file crc="3340678897" name="config/Modules/org-netbeans-modules-cnd-script.xml"/>
+        <file crc="58389850" name="modules/locale/org-netbeans-modules-cnd-script_ja.jar"/>
+        <file crc="1699438265" name="modules/locale/org-netbeans-modules-cnd-script_pt_BR.jar"/>
+        <file crc="299302665" name="modules/locale/org-netbeans-modules-cnd-script_ru.jar"/>
+        <file crc="3299079070" name="modules/locale/org-netbeans-modules-cnd-script_zh_CN.jar"/>
+        <file crc="691408300" name="modules/org-netbeans-modules-cnd-script.jar"/>
+    </module_version>
+    <module_version install_time="1454890607777" last="true" origin="NetBeans Distribution" specification_version="1.22.3.1">
+        <file crc="3340678897" name="config/Modules/org-netbeans-modules-cnd-script.xml"/>
+        <file crc="2018302737" name="modules/locale/org-netbeans-modules-cnd-script_ja.jar"/>
+        <file crc="2223798211" name="modules/locale/org-netbeans-modules-cnd-script_pt_BR.jar"/>
+        <file crc="2416871524" name="modules/locale/org-netbeans-modules-cnd-script_ru.jar"/>
+        <file crc="2794121446" name="modules/locale/org-netbeans-modules-cnd-script_zh_CN.jar"/>
+        <file crc="1869627612" name="modules/org-netbeans-modules-cnd-script.jar"/>
+    </module_version>
+</module>

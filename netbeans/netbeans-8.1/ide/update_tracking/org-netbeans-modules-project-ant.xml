@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.project.ant/1">
+    <module_version install_time="1445549184966" last="true" origin="installer" specification_version="1.64.1">
+        <file crc="3953991668" name="config/ModuleAutoDeps/org-netbeans-modules-project-ant.xml"/>
+        <file crc="3371719528" name="config/Modules/org-netbeans-modules-project-ant.xml"/>
+        <file crc="2786539856" name="modules/locale/org-netbeans-modules-project-ant_ja.jar"/>
+        <file crc="3722356616" name="modules/locale/org-netbeans-modules-project-ant_pt_BR.jar"/>
+        <file crc="2680230677" name="modules/locale/org-netbeans-modules-project-ant_ru.jar"/>
+        <file crc="2330467454" name="modules/locale/org-netbeans-modules-project-ant_zh_CN.jar"/>
+        <file crc="2381713395" name="modules/org-netbeans-modules-project-ant.jar"/>
+    </module_version>
+</module>

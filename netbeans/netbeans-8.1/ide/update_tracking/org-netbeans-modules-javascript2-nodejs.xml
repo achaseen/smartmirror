@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.javascript2.nodejs/0">
+    <module_version install_time="1445551275525" last="true" origin="installer" specification_version="0.10.1">
+        <file crc="1873451196" name="config/Modules/org-netbeans-modules-javascript2-nodejs.xml"/>
+        <file crc="1277660327" name="modules/locale/org-netbeans-modules-javascript2-nodejs_ja.jar"/>
+        <file crc="746132260" name="modules/locale/org-netbeans-modules-javascript2-nodejs_pt_BR.jar"/>
+        <file crc="1647056109" name="modules/locale/org-netbeans-modules-javascript2-nodejs_ru.jar"/>
+        <file crc="358003889" name="modules/locale/org-netbeans-modules-javascript2-nodejs_zh_CN.jar"/>
+        <file crc="3600966572" name="modules/org-netbeans-modules-javascript2-nodejs.jar"/>
+    </module_version>
+</module>

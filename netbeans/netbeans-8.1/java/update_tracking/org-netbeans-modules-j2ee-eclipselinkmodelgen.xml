@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.modules.j2ee.eclipselinkmodelgen/1">
+    <module_version install_time="1445548499833" last="true" origin="installer" specification_version="1.31.1">
+        <file crc="2071491517" name="config/Modules/org-netbeans-modules-j2ee-eclipselinkmodelgen.xml"/>
+        <file crc="2874448331" name="modules/ext/eclipselink/org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar"/>
+        <file crc="291149360" name="modules/locale/org-netbeans-modules-j2ee-eclipselinkmodelgen_ja.jar"/>
+        <file crc="3610189164" name="modules/locale/org-netbeans-modules-j2ee-eclipselinkmodelgen_pt_BR.jar"/>
+        <file crc="3039019682" name="modules/locale/org-netbeans-modules-j2ee-eclipselinkmodelgen_ru.jar"/>
+        <file crc="4280882563" name="modules/locale/org-netbeans-modules-j2ee-eclipselinkmodelgen_zh_CN.jar"/>
+        <file crc="3544087502" name="modules/org-netbeans-modules-j2ee-eclipselinkmodelgen.jar"/>
+    </module_version>
+</module>
