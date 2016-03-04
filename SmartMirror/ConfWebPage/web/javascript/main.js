@@ -7,3 +7,4 @@ function submitFunc() {
     console.log("I am here");
     var test = $("#tbl :input").serialize();
 }
+

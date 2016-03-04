@@ -1,0 +1,11 @@
+jsonCallback(
+	{
+	  "config":[
+		   	{
+			"date":"July 4th",
+			"event":"SOme Day"
+			}
+		   ]
+	}
+
+);
