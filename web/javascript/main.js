@@ -32,30 +32,29 @@ var test = "";
        if(JSON.stringify(json) !== JSON.stringify(test)) {
        		var result = "";
        		var Elements = [];
-			var DisplayOrders = new Array(json.name.length);
-			var isDisplayed = new Array(json.name.length);
-			 
-			for(i = 0; i < json.name.length; i++) {
-		
-				DisplayOrders[json.order[i] - 1] = json.name[i];
-				isDisplayed[json.order[i] - 1] = json.check[i];
-			}
-			
-			for(j = 0; j < json.name.length; j++) {
-				if(isDisplayed[j] == 'true') {
-					Elements.push("<div id=" + DisplayOrders[j]+"Container class=" + "right" + DisplayOrders[j].charAt(0).toUpperCase() + DisplayOrders[j].slice(1) + ">" + $("#"+DisplayOrders[j]+"Container").html() + "</div>");
-				}
-				else {
-					Elements.push("<div id=" + DisplayOrders[j]+"Container class=" + "right" + DisplayOrders[j].charAt(0).toUpperCase() + DisplayOrders[j].slice(1) + " style=" + "display:none;" + ">" + $("#"+DisplayOrders[j]+"Container").html() + "</div>");
-				}
-				$("#"+DisplayOrders[j]+"Container").remove();
-			}
-			console.log(Elements);
-			for(a = 0; a < Elements.length; a++) {
-				result += Elements[a] + "\n";
-			}
-			$("#authorize-div").before(result);
-        	test = json;
+    			var DisplayOrders = new Array(json.name.length);
+    			var isDisplayed = new Array(json.name.length);
+    			 
+    			for(i = 0; i < json.name.length; i++) {
+    				DisplayOrders[json.order[i] - 1] = json.name[i];
+    				isDisplayed[json.order[i] - 1] = json.check[i];
+    			}
+    			
+    			for(j = 0; j < json.name.length; j++) {
+    				if(isDisplayed[j] == 'true') {
+    					Elements.push("<div id=" + DisplayOrders[j]+"Container class=" + "right" + DisplayOrders[j].charAt(0).toUpperCase() + DisplayOrders[j].slice(1) + ">" + $("#"+DisplayOrders[j]+"Container").html() + "</div>");
+    				}
+    				else {
+    					Elements.push("<div id=" + DisplayOrders[j]+"Container class=" + "right" + DisplayOrders[j].charAt(0).toUpperCase() + DisplayOrders[j].slice(1) + " style=" + "display:none;" + ">" + $("#"+DisplayOrders[j]+"Container").html() + "</div>");
+    				}
+    				$("#"+DisplayOrders[j]+"Container").remove();
+    			}
+    			console.log(Elements);
+    			for(a = 0; a < Elements.length; a++) {
+    				result += Elements[a] + "\n";
+    			}
+    			$("#authorize-div").before(result);
+            	test = json;
         }
     });
     request.fail(function(e) {
