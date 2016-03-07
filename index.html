@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Smart Mirror Configuration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/Styles.css">
+        <script src="javascript/jquery-1.11.3.min.js"></script>
+        <script src="javascript/main.js"></script>
+    </head>
+    <body>
+        <form>
+         <table id="tbl" style="width:30%">
+            <tr>
+                <th>Component</th>
+                <th>Order</th>
+                <th>Enabled</th>
+            </tr>
+            <tr>
+              <td><label class="name" for="weather">Weather:</label></td>
+              <td>
+					<select name="weatherOrder" class="order" id="weather">
+						<option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+					</select>										
+				</td>
+              <td><input type="checkbox" name="weatherEnabled" class="checked" id="WeatherEnabled"></td>
+            </tr>
+            <tr>
+              <td><label class="name" for="email">Mail:</label></td>
+              <td>
+				<select name="mailOrder" class="order" id="mail">
+			  		<option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+				</select>
+			  </td>
+              <td><input type="checkbox" name="mailEnabled" class="checked" id="MailEnabled"></td>
+            </tr>
+            <tr>
+              <td><label class="name" for="calendar">Calendar:</label></td>
+              <td>
+					<select name="calOrder" class="order" id="calendar">
+						<option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+					</select>
+			  </td>
+              <td><input type="checkbox" name="calEnabled" class="checked" id="CalendarEnabled"> </td>
+            </tr>
+            <tr>
+              <td><label class="name" for="task">Tasks:</label></td>
+              <td>
+					<select name="taskOrder" class="order" id="tasks">
+						<option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+					</select>
+			</td>
+              <td><input type="checkbox" name="taskEnabled" class="checked" id="TasksEnabled"> </td>
+            </tr>
+         </table>            
+        </form>
+        <button class="submitButton">Submit</button>
+    </body>
+</html>
