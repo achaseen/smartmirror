@@ -78,16 +78,21 @@ html, body {
     overflow: hidden;
 }
 
-#bannerAd {
-    width:600px;
-    padding-left:75%;
-    font-family: sans-serif;
-    text-align:left;
-    font-size: 20px;
-    color: greenyellow;
-    overflow: hidden;
-}
-
 .task {
     padding-top: 8px;
+}
+
+#bannerContainer{
+    width: 600px;
+    padding-left: 75%;
+    padding-top: 1%;
+    text-align: right;
+} 
+
+#banner0, #banner1, #banner2, #banner3 {
+    padding-left: 73%;
+    position: absolute;
+    top:0;
+    left:0;
+    display:block;
 }

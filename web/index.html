@@ -13,15 +13,22 @@ and open the template in the editor.
         <script src="javascript/q.js"></script>
         <script src="javascript/view.js"></script>
         <script src="javascript/DataService.js"></script>
+        <script src="javascript/splash.js"></script> 
+        <script>startsplash('banner',3,5000);</script>
         <link rel="stylesheet" type="text/css" href="css/Styles.css">
         <script type="text/javascript" src="javascript/date_time.js"></script>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">            
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">          
         <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
         <title>Smart Mirror</title>
     </head>
     
     <body>
-        <div id="bannerAd">
+        <div id="bannerContainer">
+            <div id="banner">
+                <div id="banner0"><img src="./images/banner1.jpg"></div> 
+                <div id="banner1"><img src="./images/banner2.jpg"></div> 
+                <div id="banner2"><img src="./images/banner3.jpg"></div>
+            </div>
         </div>
         <div id="weatherContainer">
             <div id="date_time" class="weather"></div>        

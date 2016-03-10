@@ -1,5 +1,5 @@
 jsonCallback({
-"name":["weather","email","calendar","task"],
-"order":[2,3,4,1],
-"check":["true","true","true","true"]
+"name":["banner","weather","email","calendar","task"],
+"order":[1,2,3,4,5],
+"check":["true","true","true","true","true"]
 });
