@@ -14,32 +14,22 @@ function animsplash(id,a,b){
   
   
   var splash=gid(id);
-<<<<<<< HEAD
   //if (splash.anim==1) 
 
   gid(id+a).style.opacity=seqa[splash.anim]/100;
   gid(id+b).style.opacity=0;
   gid(id+a).style.filter='alpha(opacity='+seqa[splash.anim]+')';
-=======
-  if (splash.anim==1) gid(id+b).style.display='block';
 
-  gid(id+a).style.opacity=seqa[splash.anim]/100;
-  gid(id+b).style.opacity=seqb[splash.anim]/100;
-  gid(id+a).style.filter='alpha(opacity='+seqa[splash.anim]+')';
-  gid(id+b).style.filter='alpha(opacity='+seqb[splash.anim]+')';
->>>>>>> c185cd775792fca6f47fabe5734a33b25249e16a
     
   if (splash.anim<seqa.length-1) setTimeout(function(){animsplash(id,a,b);},50);
   else {
     splash.anim=0;
     gid(id+a).style.display='none';
-<<<<<<< HEAD
 
     gid(id+b).style.display='block';
     gid(id+b).style.opacity=1;
     gid(id+b).style.filter='alpha(opacity='+1+')';
-=======
->>>>>>> c185cd775792fca6f47fabe5734a33b25249e16a
+
   } 
   splash.anim++;
 }
@@ -58,8 +48,4 @@ function showsplash(id,n){
 
 function startsplash(id,n,interval){
   setInterval(function(){showsplash(id,n);},interval);  
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> c185cd775792fca6f47fabe5734a33b25249e16a
