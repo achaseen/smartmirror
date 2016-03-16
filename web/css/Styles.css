@@ -10,6 +10,7 @@ and open the template in the editor.
 
 html, body {
     background-color: black;
+    overflow: hidden;
 }
 
 #weatherContainer{
@@ -85,6 +86,7 @@ html, body {
 #bannerContainer{
     width: 600px;
     padding-left: 75%;
+<<<<<<< HEAD
     //padding-top: 30%;
     //text-align: right;
 } 
@@ -93,6 +95,16 @@ html, body {
     //padding-left: 73%;
     //position: absolute;
     //top:0;
+=======
+    padding-top: 1%;
+    text-align: right;
+} 
+
+#banner0, #banner1, #banner2, #banner3 {
+    padding-left: 73%;
+    position: absolute;
+    top:0;
+>>>>>>> c185cd775792fca6f47fabe5734a33b25249e16a
     left:0;
     display:block;
 }
