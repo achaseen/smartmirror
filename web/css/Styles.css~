@@ -13,7 +13,7 @@ html, body {
 }
 
 #weatherContainer{
-    width: 393px;
+    width: 100%;
     padding-left: 75%;
     padding-top: 5%;
     text-align: center;
@@ -26,7 +26,7 @@ html, body {
 }
 
 .rightEmail {
-    width:393px;
+    width:100%;
     height: 520px;  
     padding-left:75%;
     font-family: sans-serif;
@@ -37,7 +37,7 @@ html, body {
 }
 
 #calendarContainer{
-    width: 393px;
+    width: 100%;
     padding-left: 75%;
     padding-top: 1%;
     text-align: left;

@@ -2,7 +2,7 @@ var ServiceModule = (function() {
     
     var WeatherService = function() {
 
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json&appid=b1b15e88fa797225412429c1c50c122a";
+        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json&appid=44db6a862fba0b067b1930da0d769e98";
     }
     
     _.extend(WeatherService.prototype, {
@@ -25,7 +25,7 @@ var CLIENT_ID = '790846769013-17vdsh4u1j1ne5bonorg0mjuscgg3dg2.apps.googleuserco
 
 var SCOPES = ['https://www.googleapis.com/auth/gmail.readonly https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/tasks.readonly'];
 
-/**setInterval
+/**
 * Check if current user has authorized this application.
 */
 function checkAuth() {
@@ -81,29 +81,28 @@ gapi.client.load('tasks', 'v1', listTaskLists);
 
 
 function listMessages() { 
-    var tmp = "";
+    
  function refreshMessages(){
+    var clear = document.getElementById('emailContainer');
+    while(clear.firstChild) {
+        clear.removeChild(clear.firstChild);    
+    }
     //document.getElementById('output').innerHTML="";
     var getPageOfMessages = function(request, result) {
-		request.execute(function(resp) {
-		result = result.concat(resp.messages);
-		if(JSON.stringify(tmp) != JSON.stringify(result)) {
-			var clear = document.getElementById('emailContainer');
-			while(clear.firstChild) {
-				clear.removeChild(clear.firstChild);    
-			}
-			if(result.length > 0)
-			{
-				appendPre('Gmail inbox:');
-				for(x = 0; x < result.length; x++){
-					outputMessages(result[x].id);
+    request.execute(function(resp) {
+    result = result.concat(resp.messages);
 
-				}
-			}
-		}
-		tmp = result;
-		});
-	};
+    if(result.length > 0)
+    {
+    appendPre('Gmail inbox:');
+    for(x = 0; x < result.length; x++){
+        outputMessages(result[x].id);
+
+    }
+
+    }
+    });
+    };
 
     var initialRequest = gapi.client.gmail.users.messages.list({
     'userId': 'me',
@@ -114,7 +113,7 @@ function listMessages() {
 }   
     
 refreshMessages();    
-setInterval(refreshMessages,1000);
+setInterval(refreshMessages,60000);
 }
 
 
@@ -138,8 +137,12 @@ request.execute(function(resp) {
        * appropriate message is printed.
        */
       function listUpcomingEvents() {
-        var tmp = "";
+          
         function refreshEvents(){
+            var clear = document.getElementById('calendarContainer');
+            while(clear.firstChild) {
+                clear.removeChild(clear.firstChild);    
+            }
             
             var request = gapi.client.calendar.events.list({
               'calendarId': 'primary',
@@ -153,39 +156,31 @@ request.execute(function(resp) {
             request.execute(function(resp) {
                 
               var events = resp.items;
-              if(JSON.stringify(events) !== JSON.stringify(tmp)) {
-				  var clear = document.getElementById('calendarContainer');
-					while(clear.firstChild) {
-						clear.removeChild(clear.firstChild);    
-					}
-				  appendPreCalendar('Upcoming events:');
+              appendPreCalendar('Upcoming events:');
 
-				  if (events.length > 0) {
-					for (i = 0; i < events.length; i++) {
-					  var event = events[i];
-					  var when = event.start.dateTime;
-	//                  debugger;
-					  if (!when) {
-						when = event.start.date;
-					  }
-					  var date = when.substring(0, when.length - 15);
-					  var time = when.substring(when.length - 14, when.length-6);
-					  appendPreCalendar(time + ": " + event.summary);
-					}
-				  } else {
-					appendPreCalendar('No upcoming events found.');
-				  }
-				}
-				tmp = events;
+              if (events.length > 0) {
+                for (i = 0; i < events.length; i++) {
+                  var event = events[i];
+                  var when = event.start.dateTime;
+//                  debugger;
+                  if (!when) {
+                    when = event.start.date;
+                  }
+                  var date = when.substring(0, when.length - 15);
+                  var time = when.substring(when.length - 14, when.length-6);
+                  appendPreCalendar(time + ": " + event.summary);
+                }
+              } else {
+                appendPreCalendar('No upcoming events found.');
+              }
 
             });
         }
         refreshEvents();
-        setInterval(refreshEvents,1000);
+        setInterval(refreshEvents,60000);
       }
 
     function listTaskLists() {
-    	var tmp = "";
         function refreshTaskLists(){
             var clear = document.getElementById('taskContainer');
             while(clear.firstChild) {
@@ -196,25 +191,23 @@ request.execute(function(resp) {
               });
 
               request.execute(function(resp) {
-				var taskLists = resp.items;
-				if(JSON.stringify(taskLists) != JSON.stringify(tmp)) {
-					appendPreTasks('Task Lists:');
-					if (taskLists && taskLists.length > 0) {
-					  for (var i = 0; i < taskLists.length; i++) {
-						var taskList = taskLists[i];
-						//gapi.client.tasks.tasks.list({'tasklist': 'MDYxNzkzNDY5OTA1MzA2MTMyMjE6MDow'})
 
-						appendPreTasks(taskList.title + ' (' + taskList.id + ')');
-					  }
-					} else {
-					  appendPreTasks('No task lists found.');
-					}
-				}
-				tmp = taskLists;
+                appendPreTasks('Task Lists:');
+                var taskLists = resp.items;
+                if (taskLists && taskLists.length > 0) {
+                  for (var i = 0; i < taskLists.length; i++) {
+                    var taskList = taskLists[i];
+                    //gapi.client.tasks.tasks.list({'tasklist': 'MDYxNzkzNDY5OTA1MzA2MTMyMjE6MDow'})
+
+                    appendPreTasks(taskList.title + ' (' + taskList.id + ')');
+                  }
+                } else {
+                  appendPreTasks('No task lists found.');
+                }
               });
           }
         refreshTaskLists();
-        setInterval(refreshTaskLists,1000);
+        setInterval(refreshTaskLists,60000);
   }
 
 

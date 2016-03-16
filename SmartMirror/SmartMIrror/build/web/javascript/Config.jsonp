@@ -1,0 +1,6 @@
+jsonCallback({
+"name":["weather","email","calendar","task"],
+"order":[1,2,4,3],
+"check": ["true","false","false","false"]
+
+});

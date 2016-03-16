@@ -1,4 +1,4 @@
-  /* 
+/* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -13,6 +13,7 @@ var ViewModule = (function() {
 
     }
     
+    
    _.extend(WeatherView.prototype, {
       init: function() {
           
@@ -25,7 +26,9 @@ var ViewModule = (function() {
              console.log(result.data); 
              location.innerHTML = "Your Location:" + result.name;
              temp.innerHTML = "It is " + result.main.temp + " Degrees";
-             cloud.innerHTML = "Current Weather: " + result.weather[0].description;         
+             cloud.innerHTML = "Current Weather: " + result.weather[0].description;
+             
+             
           });
           
       },
