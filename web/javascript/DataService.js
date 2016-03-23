@@ -94,7 +94,7 @@ function listMessages() {
 			}
 			if(result.length > 0)
 			{
-				appendPre('Gmail inbox:');
+				appendPre('INBOX');
 				for(x = 0; x < result.length; x++){
 					outputMessages(result[x].id);
 
@@ -158,7 +158,7 @@ request.execute(function(resp) {
 					while(clear.firstChild) {
 						clear.removeChild(clear.firstChild);    
 					}
-				  appendPreCalendar('Upcoming events:');
+				  appendPreCalendar('EVENTS');
 
 				  if (events.length > 0) {
 					for (i = 0; i < events.length; i++) {
@@ -226,7 +226,7 @@ request.execute(function(resp) {
 */
 function appendPre(message) {
     $el = $('#emailContainer');
-    if(message === "Gmail inbox:")
+    if(message === "INBOX")
     	$el.append('<div class="emailTitle">' + message + '</div>');
     else
     	$el.append('<div class="email">' + "○ " + message + '</div>');
@@ -241,7 +241,7 @@ function appendPre(message) {
 */
 function appendPreCalendar(message) {
     $el = $('#calendarContainer');
-    if(message === 'Upcoming events:')
+    if(message === 'EVENTS')
     	$el.append('<div class="calendarTitle">' + message + '</div>');
     else
 	$el.append('<div class="calendar">' + "○ " + message + '</div>');

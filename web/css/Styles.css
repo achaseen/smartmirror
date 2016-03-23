@@ -17,6 +17,7 @@ html, body {
 #orders {
 	padding-right:30%;
 	padding-top:10%;
+	//border-style: solid;
 }
 
 #weatherContainer{
@@ -41,7 +42,6 @@ html, body {
     width: 705px;
     padding-left: 55%;
     padding-top: 5%;
-    border-style: solid;
 }
 
 .rightEmail {
@@ -61,17 +61,17 @@ html, body {
     padding-left: 55%;
     padding-top: 1%;
     text-align: left;
-    border-style: solid;
 }
 
 .email {
     padding-top: 8px;
-    //border-style: solid;
 }
 
 .emailTitle {
 	font-family: sans-serif;
 	font-size: 50px;
+	border-style: solid;
+	text-align: center;
 }
 
 .rightCalendar {
@@ -85,13 +85,14 @@ html, body {
 }
 
 .calendar {
-    //border-style: solid;
     padding-top: 8px;
 }
 
 .calendarTitle {
 	font-family: sans-serif;
 	font-size: 50px;
+	border-style: solid;
+	text-align: center;
 }
 
 #taskContainer{
@@ -125,9 +126,13 @@ html, body {
 
 #banner0, #banner1, #banner2, #banner3 {
     //width:705px;
-    padding-left: 45%;
+    padding-left: 35%;
     position: absolute;
     //top:0;
     left:0;
     display:block;
+}
+
+#imageStyle {
+	width: 705px;
 }
