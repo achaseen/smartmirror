@@ -33,6 +33,10 @@ html, body {
     color: white;
 }
 
+#weatherImage {
+	font-size: 100px;
+}
+
 .timeStyle {
 	font-size:100px;
 	color:white;
@@ -118,15 +122,15 @@ html, body {
 
 #bannerContainer{
     width: 705px;
-    height: 210px;
-    padding-left: 35%;
+    height: 300px;
+    padding-left: 45%;
     //padding-top: 30%;
     //text-align: right;
 } 
 
 #banner0, #banner1, #banner2, #banner3 {
     //width:705px;
-    padding-left: 55%;
+    padding-left: 35%;
     position: absolute;
     //top:0;
     left:0;

@@ -33,6 +33,11 @@ html, body {
     color: white;
 }
 
+#weatherImage {
+	font-size: 100px;
+	padding-top: 5%;
+}
+
 .timeStyle {
 	font-size:100px;
 	color:white;
@@ -118,7 +123,7 @@ html, body {
 
 #bannerContainer{
     width: 705px;
-    height: 210px;
+    height: 300px;
     padding-left: 45%;
     //padding-top: 30%;
     //text-align: right;
