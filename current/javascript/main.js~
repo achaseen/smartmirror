@@ -1,0 +1,39 @@
+$(document).ready(function() {
+	
+
+$("select").val("");
+	$("select").change(function() {
+		console.log("hi");
+            	$("select option:selected").each(function() {
+                	$(this).attr("style","display:none;");
+            	});
+            	$("select option:not(:selected)").each(function() {
+                	$(this).removeAttr("style");
+            	});
+	});
+
+	$(".submitButton").click(function() {
+	
+	  var name = $(".name").map(function() {
+		  return $(this).attr('for');
+	  }).get();
+	  var order = $(".order").map(function() {
+		  return $(this).val();
+	  }).get();
+	  var check = $(".checked").map(function() {
+		  return $(this).is(':checked');
+	  }).get();
+	  var request = $.ajax({
+		 url: 'php/set_configuration.php',
+		 type: 'POST',
+		 data: {name: name, order: order, check: check}
+	  });
+	  request.done(function() {
+		   alert("Request Succeeded");
+	  })
+	  request.fail(function() {
+		  alert("Request failed");
+	  })
+	});
+});
+

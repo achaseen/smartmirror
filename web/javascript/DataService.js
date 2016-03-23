@@ -2,7 +2,7 @@ var ServiceModule = (function() {
     
     var WeatherService = function() {
 
-        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json&appid=b1b15e88fa797225412429c1c50c122a";
+        this.url = "http://api.openweathermap.org/data/2.5/weather?q=Waterloo&units=metric&mode=json&appid=f1c216d29dc615f2f7e79be760600812";
     }
     
     _.extend(WeatherService.prototype, {
@@ -226,7 +226,10 @@ request.execute(function(resp) {
 */
 function appendPre(message) {
     $el = $('#emailContainer');
-    $el.append('<div class="email">' + message + '</div>');
+    if(message === "Gmail inbox:")
+    	$el.append('<div class="emailTitle">' + message + '</div>');
+    else
+    	$el.append('<div class="email">' + "○ " + message + '</div>');
 //var textContent = document.createTextNode(message + '\n');
 
 }
@@ -238,7 +241,10 @@ function appendPre(message) {
 */
 function appendPreCalendar(message) {
     $el = $('#calendarContainer');
-    $el.append('<div class="calendar">' + message + '</div>');
+    if(message === 'Upcoming events:')
+    	$el.append('<div class="calendarTitle">' + message + '</div>');
+    else
+	$el.append('<div class="calendar">' + "○ " + message + '</div>');
 //var textContent = document.createTextNode(message + '\n');
 
 }

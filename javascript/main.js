@@ -2,14 +2,14 @@ $(document).ready(function() {
 	
 
 $("select").val("");
-	$("select").change(function() {
+	/*$("select").change(function() {
             	$("select option:selected").each(function() {
                 	$(this).attr("style","display:none;");
             	});
             	$("select option:not(:selected)").each(function() {
                 	$(this).removeAttr("style");
             	});
-	});
+	});*/
 
 	$(".submitButton").click(function() {
 	

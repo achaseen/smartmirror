@@ -5,7 +5,7 @@
  */
 
 $(document).ready(function() {
-    //document.getElementById('testid').innerHTML = "im working"; 
+
     var weatherView = new ViewModule.WeatherView(new ServiceModule.WeatherService());
     date_time('date_time');
     setInterval(updateConfig,1000);
@@ -60,6 +60,6 @@ function updateConfig(){
       }
   });
   request.fail(function(e) {
-     console.log(e.message);
+     //console.log(e.message);
   });
 }

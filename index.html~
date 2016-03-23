@@ -21,22 +21,22 @@ and open the template in the editor.
               <th>Order</th>
               <th>Enabled</th>
             </tr>
-	      <tr>
-              <td><label class="name" for="stock">Stock:</label></td>
-              <td>
-                <select name="stockOrder" class="order" id="stock">
-                  <option>1</option>
-                </select>                   
-              </td>
-              <td><input type="checkbox" name="stockEnabled" class="checked" id="StockEnabled"></td>
-            </tr>
-
-             <tr>
+<!--
+            <tr>
+                <td><label class="name" for="stock">Stock:</label></td>
+                <td>
+                  <select name="stockOrder" class="order" id="stock">
+                    <option>1</option>
+                  </select>                   
+                </td>
+                <td><input type="checkbox" name="stockEnabled" class="checked" id="StockEnabled"></td>
+            </tr> -->
+            <tr>
               <td><label class="name" for="banner">Banner:</label></td>
               <td>
-                <select name="bannerOrder" class="order" id="banner">
+              <select name="bannerOrder" class="order" id="banner">
                   <option>1</option>
-                </select>                   
+              </select>                   
               </td>
               <td><input type="checkbox" name="bannerEnabled" class="checked" id="BannerEnabled"></td>
             </tr>
@@ -44,7 +44,7 @@ and open the template in the editor.
               <td><label class="name" for="weather">Weather:</label></td>
               <td>
                 <select name="weatherOrder" class="order" id="weather">
-                  <option>2</option>
+				  <option>2</option>
                   <option>3</option>
                   <option>4</option>
                   <option>5</option>
@@ -57,9 +57,9 @@ and open the template in the editor.
             <td>
               <select name="mailOrder" class="order" id="mail">
                 <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
               </select>
             </td>
             <td><input type="checkbox" name="mailEnabled" class="checked" id="MailEnabled"></td>
@@ -68,10 +68,10 @@ and open the template in the editor.
             <td><label class="name" for="calendar">Calendar:</label></td>
             <td>
               <select name="calOrder" class="order" id="calendar">
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
               </select>
             </td>
             <td><input type="checkbox" name="calEnabled" class="checked" id="CalendarEnabled"> </td>
@@ -80,10 +80,10 @@ and open the template in the editor.
             <td><label class="name" for="task">Tasks:</label></td>
             <td>
               <select name="taskOrder" class="order" id="tasks">
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
               </select>
             </td>
             <td><input type="checkbox" name="taskEnabled" class="checked" id="TasksEnabled"> </td>

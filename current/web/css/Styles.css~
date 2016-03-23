@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2015, 10:37:20 AM
+    Author     : abhitha
+*/
+
+html, body {
+    background-color: black;
+    overflow: hidden;
+}
+#orders{
+	padding-right:30%;
+	padding-top:10%;
+}
+#weatherContainer{
+    width: 393px;
+    padding-left: 55%;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.weather {
+    font-family: fantasy;
+    font-size: 30px;
+    color: white;
+}
+
+#weatherContainer{
+    width: 393px;
+    padding-left: 55%;
+    padding-top: 5%;
+}
+
+.rightEmail {
+    width:393px;
+    height: 520px;  
+    padding-left:75%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+#calendarContainer{
+    width: 393px;
+    padding-left: 55%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.email {
+    padding-top: 8px;
+}
+
+.rightCalendar {
+    width:393px;
+    padding-left:55%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+.calendar {
+    padding-top: 8px;
+}
+
+#taskContainer{
+    width: 393px;
+    padding-left: 55%;
+    padding-top: 1%;
+    text-align: left;
+}
+
+.rightTasks {
+    width:393px;
+    padding-left:55%;
+    font-family: sans-serif;
+    text-align:left;
+    font-size: 20px;
+    color: greenyellow;
+    overflow: hidden;
+}
+
+.task {
+    padding-top: 8px;
+}
+
+#bannerContainer{
+    width: 600px;
+    padding-left: 55%;
+    //padding-top: 30%;
+    //text-align: right;
+} 
+
+#banner0, #banner1, #banner2, #banner3 {
+    //padding-left: 73%;
+    //position: absolute;
+    //top:0;
+    left:0;
+    display:block;
+}

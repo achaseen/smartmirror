@@ -17,8 +17,10 @@ function animsplash(id,a,b){
   //if (splash.anim==1) 
 
   gid(id+a).style.opacity=seqa[splash.anim]/100;
-  gid(id+b).style.opacity=0;
   gid(id+a).style.filter='alpha(opacity='+seqa[splash.anim]+')';
+
+  gid(id+b).style.opacity=seqb[splash.anim]/100;
+  gid(id+b).style.filter='alpha(opacity='+seqb[splash.anim]+')';
 
     
   if (splash.anim<seqa.length-1) setTimeout(function(){animsplash(id,a,b);},50);
@@ -27,8 +29,7 @@ function animsplash(id,a,b){
     gid(id+a).style.display='none';
 
     gid(id+b).style.display='block';
-    gid(id+b).style.opacity=1;
-    gid(id+b).style.filter='alpha(opacity='+1+')';
+   
 
   } 
   splash.anim++;

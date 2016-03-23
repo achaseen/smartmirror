@@ -22,10 +22,11 @@ var ViewModule = (function() {
           
           var promise = this.DataService.queryWeather();
           promise.then(function(result) {
-             console.log(result.data); 
-             location.innerHTML = "Your Location:" + result.name;
-             temp.innerHTML = "It is " + result.main.temp + " Degrees";
-             cloud.innerHTML = "Current Weather: " + result.weather[0].description;         
+	     //debugger;
+             location.innerHTML = result.name;
+             temp.innerHTML = result.main.temp + " degrees";
+             cloud.innerHTML = result.weather[0].description;
+             $("#image").attr("src", "http://openweathermap.org/img/w/" +result.weather[0].icon +".png");
           });
           
       },
